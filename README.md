@@ -1,6 +1,7 @@
 # CateringService
 ## Description
 This repository contains the source code of my project for a catering service website. The website is designed to showcase catering services, menu options, and contact information. It provides potential clients with an easy-to-navigate interface to learn about various offerings and get in touch with the site owner.
+(Still in making)
 <br>
 ## Features
 -> Homepage: Introduction to our catering services with attractive visuals.<br>
