@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Catering</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Slackside+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Slackside+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <script>
+        const arr = ["Welcome to XYZ Catering Services", "Satisfying your cravings one dish at a time",
+            "Unleashing a symphony of flavors on your palate", "Creating unforgettable dining experiences",
+            "Where taste meets innovation", "Elegant flavours for every foodie out there"];
+
+        function displayArray() {
+            const outputElement = document.getElementById("output");
+            outputElement.innerHTML = ""; // Clear previous content
+
+            let counter = 0;
+
+            function displayNextItem() {
+                if (counter < arr.length) {
+                    outputElement.textContent = arr[counter];
+                    counter++;
+                    setTimeout(displayNextItem, 1000); // Change 1000 to the desired delay in milliseconds
+                }
+            }
+        }
+
+        displayArray();
+    </script>
+
+
+    <header>
+        <div class="navbar oswald">
+            <a href="#" class="navbar-icon">
+                <i class="fas fa-home">
+
+                </i>
+            </a>
+            <div>
+                <a href="./home.html">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Events</a>
+                <a href="#">Bookings</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="background-container">
+        <div id="grid-container">
+            <div class="intro-head dance">Crafting Culinary masterpieces for every occasion.</div>
+            <div class="wel oswald" id="welc">Welcome to XYZ Catering Service</div>
+            <div class="estbld oswald">Established 1969</div>
+            <div class="intro-head2 dance">Because an occasion is incomplete without food</div>
+            <button class="trans" id="order">Order here</button>
+            <button class="trans" id="menu">Menu</button>
+            <button class="trans" id="why">Why us</button>
+            <button class="trans" id="book">Book now</button>
+        </div>
+    </section>
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide welcome dance" data-bs-ride="carousel">
+        <div class="carousel-inner intro-text quicksand">
+            <div class="carousel-item active">
+                <p>Welcome to XYZ Catering Services</p>
+            </div>
+            <div class="carousel-item">
+                <p>Satisfying your cravings one dish at a time</p>
+            </div>
+            <div class="carousel-item">
+                <p>Unleashing a symphony of flavors on your palate</p>
+            </div>
+            <div class="carousel-item">
+                <p>Creating unforgettable dining experiences</p>
+            </div>
+            <div class="carousel-item">
+                <p>Where taste meets innovation</p>
+            </div>
+            <div class="carousel-item">
+                <p>Elegant flavours for every foodie out there</p>
+            </div>
+            <div class="carousel-item">
+                <p>Because every occasion needs food</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="gr-con">
+        <div class="image-container item1">
+            <div class="background-image" style="background-image: url('./images/head2.jpg');">
+                
+            </div>
+            <div class="overlay">
+
+                <button>Click Me</button>
+            </div>
+        </div>
+        <div class="image-container item2">
+            <div class="background-image" style="background-image: url('./images/birthday.jpg');">
+                
+            </div>
+            <div class="overlay">
+
+                <button>Click Me</button>
+            </div>
+        </div>
+        <div class="image-container item3">
+            <div class="background-image" style="background-image: url('./images/wed.jpg');">
+                
+            </div>
+            <div class="overlay">
+
+                <button>Click Me</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="rounded"></div>
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Menu</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">What makes us
+                                special</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Services</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our clients</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy
+                                policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Catering Services</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Corporate</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Destination</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Private
+                                Luxury</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Institutional</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© XYZ Catering, Inc. Made to serve hearts. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    
+
+
+
+
+
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            var backgroundContainer = document.querySelector('#background-container');
+            var scrollPosition = window.scrollY;
+
+            if (scrollPosition > 100) { 
+                header.style.display = 'none';
+                backgroundContainer.style.marginTop = '0';
+            } else {
+                header.style.display = 'block';
+                
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
