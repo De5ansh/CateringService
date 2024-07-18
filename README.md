@@ -14,3 +14,7 @@ This repository contains the source code of my project for a catering service we
 -> CSS3: Styling and layout of the website.<br>
 -> JavaScript: Interactive elements and form validation.<br>
 -> Bootstrap: Front-end framework for responsive design.<br>
+## Screenshots
+![Screenshot 2024-07-18 221655](https://github.com/user-attachments/assets/31814086-657e-48ca-93f8-3cd01ec4b2ce)
+![Screenshot 2024-07-18 221903](https://github.com/user-attachments/assets/b48eb767-8f63-41ee-9474-63d142d335ec)
+![Screenshot 2024-07-18 221718](https://github.com/user-attachments/assets/f2564258-b169-49dc-9e03-e962e9b15d55)
